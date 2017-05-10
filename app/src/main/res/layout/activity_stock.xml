@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context="com.revere.caredaily.StockActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginRight="-14dp"
+        android:layout_marginTop="8dp"
+        android:text="丝柔纸尿裤："
+        app:layout_constraintBottom_toBottomOf="@+id/editText2"
+        app:layout_constraintRight_toLeftOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="@+id/editText2"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintRight_toLeftOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="508dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="508dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline3"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="178dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="丝柔拉拉裤："
+        app:layout_constraintRight_toLeftOf="@+id/editText5"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/editText5"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText5"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+
+        android:inputType="number"
+
+        app:layout_constraintRight_toLeftOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="丝薄纸尿裤："
+        app:layout_constraintRight_toLeftOf="@+id/editText6"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText6"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="@+id/editText6"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="丝薄拉拉裤："
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="@+id/editText7"
+        app:layout_constraintRight_toLeftOf="@+id/editText7"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText7"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="number"
+
+        app:layout_constraintRight_toLeftOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="number"
+
+        app:layout_constraintRight_toLeftOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大湿巾："
+        app:layout_constraintRight_toLeftOf="@+id/editText8"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/editText8"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText8"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText7"
+        app:layout_constraintRight_toLeftOf="@+id/guideline3"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小湿巾："
+        app:layout_constraintRight_toLeftOf="@+id/editText9"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/editText9"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText9"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+
+        app:layout_constraintRight_toLeftOf="@+id/guideline3"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText8"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="柔纸巾："
+        app:layout_constraintTop_toTopOf="@+id/editText10"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText10"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/editText10"
+        android:layout_marginRight="8dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+
+        app:layout_constraintRight_toLeftOf="@+id/guideline3"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="放入库存"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText10"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/editText8"
+        app:layout_constraintLeft_toRightOf="@+id/editText8"
+        app:layout_constraintTop_toTopOf="@+id/editText8"
+        app:layout_constraintVertical_bias="0.483">
+
+        <RadioButton
+            android:id="@+id/rb_dsjxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:checked="true"
+            android:text="箱"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_dsjbao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="包"
+            android:textSize="15sp" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintLeft_toRightOf="@+id/editText9"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText9"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_xsjxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:checked="true"
+            android:text="箱"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_xsjbao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="包"
+            android:textSize="15sp" />
+
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintLeft_toRightOf="@+id/editText2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText2"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_srznkxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:checked="true"
+            android:text="箱"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_srznkbao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="包"
+            android:textSize="15sp" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@+id/editText5"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText5"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_srllkxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="箱"
+            android:checked="true"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_srllkbao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="包"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@+id/editText6"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText6"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_sbznkxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="箱"
+            android:checked="true"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_sbznkbao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="包"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@+id/editText7"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText7"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_sbllkxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="箱"
+            android:checked="true"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_sbllkbao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="包"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@+id/editText10"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText10"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_rzjxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="箱"
+            android:checked="true"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_rzjbao"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="包"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+
+</android.support.constraint.ConstraintLayout>

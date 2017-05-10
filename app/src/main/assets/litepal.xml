@@ -1,0 +1,20 @@
+<litepal>
+    <dbname value="care_daily"></dbname>
+    <version value ="1"></version>
+
+    <list>
+        <mapping class="com.revere.caredaily.db.Dashijin"/>
+        <mapping class="com.revere.caredaily.db.Rouzhijin"/>
+        <mapping class="com.revere.caredaily.db.SBLalaku"/>
+        <mapping class="com.revere.caredaily.db.SBZhiniaoku"/>
+        <mapping class="com.revere.caredaily.db.SRLalaku"/>
+        <mapping class="com.revere.caredaily.db.SRZhiniaoku"/>
+        <mapping class="com.revere.caredaily.db.Xiaoshijin"/>
+
+
+    </list>
+
+
+
+
+</litepal>
